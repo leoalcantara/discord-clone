@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 import { Props } from '.';
-import { prependListener } from 'process';
 
 export const Button = styled.div<Props>`
   display: flex;

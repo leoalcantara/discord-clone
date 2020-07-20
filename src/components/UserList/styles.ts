@@ -2,19 +2,19 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   grid-area: UL;
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-   padding:3px 6px 0 16px;
+  padding:3px 6px 0 16px;
 
-   background-color: var(--secondary);
+  background-color: var(--secondary);
 
-   max-height: calc(100vh -46px); 
-   overflow-y: scroll;
+  max-height: calc(100vh -46px); 
+  overflow-y: scroll;
 
-   ::-webkit-scrollbar {
-    width: 4px;
-   }
+  ::-webkit-scrollbar {
+   width: 4px;
+  }
 
    ::-webkit-scrollbar-thumb{
     background-color: var(--tertiary);
@@ -26,7 +26,7 @@ export const Container = styled.div`
    }
 `;
 
-export const Role = styled.div`
+export const Role = styled.span`
     margin-top: 20px;
 
     text-transform: uppercase;

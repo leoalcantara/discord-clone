@@ -12,7 +12,7 @@ const ChannelButton: React.FC<Props> = ({channelName, selected}) => {
     <Container className={ selected ? 'active' : ''}>
       <div>
         <HashtagIcon />
-        <span>chatlivre</span>
+        <span>{ channelName }</span>
       </div>
 
       <div>
